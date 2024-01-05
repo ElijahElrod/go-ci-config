@@ -1,7 +1,7 @@
 # Github config and workflows
 
 In this folder there is configuration for codecoverage, dependabot, and ci
-workflows (gofmt, golangci, and running tests).
+workflows (gofmt, golangci-lint, and go test -race).
 
 This folder can be or was merged using a --allow-unrelated-histories merge
 strategy from <https://github.com/ElijahElrod/go-ci-config.git/> which provides a CI base for Go projects. 
